@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Aclonica', sans-serif;
+}
+    /* globales */
+    body{
+        background-image: linear-gradient(to bottom, #fb5607, #f85e10, #f66618, #f36d20, #f17327, #f87c45, #fd875e, #ff9275, #ffa9a1, #ffc3c7, #ffdee5, #fff9fb);
+    }
+
+    .enlace{
+        background-color: #fe9c09;
+        text-decoration: none;
+        padding: 12px;
+        border-radius: 12px;
+        margin: 8px;        
+    }
+
+    .enlace:hover{
+        background-color: #ff5900;
+    }
+
+    .subrayado-no{
+        text-decoration: none;
+        color: white;
+    }
+
+    .subrayado-no:hover{
+        background-color: yellow;
+    }
+
+    #header .relleno{
+        background-color: #fe9c09;
+              
+    }
+
+    #header .relleno .header__menu{
+        padding: 12px;
+    }
+
+    #footer{
+        background-color: #333333;
+    }
+
+    #footer .footer__redes img{
+        width: 40px;
+        height: 40px;
+    }
+
+    #footer .footer__texto img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .footer__texto--blanco{
+        color: white;
+        font-size: small;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .centrar{
+        text-align: center;
+    }
+
+    .aLaDerecha{
+        text-align: right;
+    }
+    
+   
+    nav img{
+        width: 250px;
+        height: auto;
+    }
+    
+    /* HOME */
+    
+    .titulo{
+        background-color: orange;
+        color: #fff9fb;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+    .grid_mapa{
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        align-content: center; 
+    }
+    .galeria{
+        width: 100%;
+        max-width: 600px;
+    
+    }
+   .galeria img{
+        width: 100%;
+   }
+   .mapa{
+        width: 100%;
+        max-width: 600px;
+   }
+   .mapa iframe{
+        width: 100%;
+   }
+
+   #carouselExampleIndicators{
+        width: 100%;
+        max-width: 1000px;
+        height: 100%;
+        max-height: 1000px;
+        margin: auto;
+   }
+
+   #carouselExampleIndicators img{
+        width: 100%;
+   }
+    
+    .flex_titulo{
+        background-color: orange;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-flow:row wrap;
+        gap: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .flex{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+             
+    }
+    
+    .foto{
+        background-color: white;
+        width: 350px;
+         
+    }
+    .flex_item img{
+        width: 100%;
+        height: auto;
+        border: black solid;
+    }
+    #indicaciones .mapa{
+        margin: 20px;
+        
+    }
+    #mas_visto .centrar img{
+        width: 200px;
+        height: auto;
+    }
+    
+    /* contacto */
+
+    #formulario form{
+        margin: 30px 100px;
+        border: black dotted;
+    }
+    
+    /* nosotros */
+
+    #info .info__vidriera img{
+        width: 400px;
+        height: 400px;
+    }
+
+    #info .historia{
+        margin: 30px;
+        border: #f87c45 solid;
+    }
+
+    /* promos */
+
+    #promociones .promociones__tarjetas img{
+        width: 175px;
+        height: 175px;       
+    }
+    #promociones .promociones__tarjetas p{
+        display: inline;
+        margin: 30px 45px;
+    }
+    /* coleccion */
+    .grid_prendas{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 4fr);
+        gap: 15px;
+        justify-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .grid_prendas .ropa img{
+        width: auto;
+        height: 40vh;
+        margin: 20px;
+    }
+    @media (min-width: 320px) and (max-width: 1400px){ 
+        .grid_prendas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+   
+    
+
+    /* outlet */
+
+    
+     
