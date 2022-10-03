@@ -95,8 +95,7 @@
     }
     .galeria{
         width: 100%;
-        max-width: 600px;
-    
+        max-width: 600px;   
     }
    .galeria img{
         width: 100%;
@@ -160,10 +159,10 @@
     
     /* contacto */
 
-    #formulario form{
-        margin: 30px 100px;
+    /* #formulario form{
+        margin: 40px 100px;
         border: black dotted;
-    }
+    } */
     
     /* nosotros */
 
@@ -179,14 +178,11 @@
 
     /* promos */
 
-    #promociones .promociones__tarjetas img{
+    /* #promociones .promociones__tarjetas img{
         width: 175px;
         height: 175px;       
-    }
-    #promociones .promociones__tarjetas p{
-        display: inline;
-        margin: 30px 45px;
-    }
+    } */
+   
     /* coleccion */
     .grid_prendas{
         display: grid;
@@ -212,6 +208,21 @@
     
 
     /* outlet */
+.secciones img {
+    width: 70%;
+}
 
+.grid_outlet{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     
-     
+    gap: 15px;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.grid_outlet .ropa img{
+    width: auto;
+    height: 40vh;
+    margin: 20px;
+} 

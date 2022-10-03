@@ -7,62 +7,71 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="shortcut icon" href="../imagenes/Logo pestaña.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-    <header id="header">
-        <div class="header__logo">
-            <img src="../imagenes/Logo GK desarrollo web.png" alt="Garabato" width="250" height="auto">
-        </div>
-        <div class="relleno centrar">
-            <nav class="header__menu">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./nosotros.html">Sobre Nosotros</a> </li>
-                    <li><a href="./outlet.html">OutLet</a> </li>
-                    <li><a href="./promos.html">Promos</a></li>
-                    <li><a href="./coleccion.html">Coleccion</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>    
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imagenes/nuego logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./coleccion.html">Coleccion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./promos.html">Promos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./outlet.html">Outlet</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>       
     </header>
     <main>
         <div class="titulo centrar">
-            <h1>Completa el formulario de contacto</h1>
-            <h3>Al hacerlo nos estas dejando tus datos para que nos contactemos contigo lo mas rapido posible.</h3>
+            <h1 class="animate__animated animate__shakeY">Completa el formulario de contacto</h1>
+            <h3 class="animate__animated animate__shakeY">Al hacerlo nos estas dejando tus datos para que nos contactemos contigo lo mas rapido posible.</h3>
         </div>
+    
+        <div class="mt-5">
+            <div class="mb-3 mt-3 container">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Aquí va su correo">
+            </div>
+            <div class="mb-3 container">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje o consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="container mb-3">
+                <button type="submit" class="btn btn-warning">Enviar</button>
+            </div>
+        </div>
+
     </main>
-
-    <section id="formulario" class="centrar">
-        <form action="" method="post">
-            <fieldset>
-                <div class="formulario__datos">
-                    <label for="nombre">Nombre completo</label>
-                    <input type="text" id="nombre">
-                </div>
-
-                <div class="formulario__datos">
-                    <label for="apellido">Apellido completo</label>
-                    <input type="text" id="apellido">
-                </div>
-
-               <div class="formulario__datos">
-                   <label for="correo">Correo electronico</label>
-                   <input type="email" name="" id="correo" required>
-               </div>
-
-               <div class="formulario__datos">
-                   <label for="numero">Su Telefono</label>
-                   <input type="number" required>
-               </div>
-
-               <div class="formulario__datos">
-                <input type="submit" value="Enviar">
-               </div>
-            </fieldset>
-        </form>
-
-    <footer id="footer">
+    <footer id="footer" class="fixed-bottom">
         <h4 class="footer__texto--blanco">Nuestras Redes Sociales</h4>
         <div class="footer__redes">
             <a href="https://instagram.com/garabatokids.ok?igshid=YmMyMTA2M2Y=" target="_blank"><img src="../imagenes/logo if.png" alt="instagram"></a>
@@ -79,6 +88,6 @@
             <a href="./pages/contacto.html" target="_blank">Contactarme</a>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
