@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Aclonica", sans-serif;
+}
+
+#body {
+  background-image: linear-gradient(to bottom, #fb5607, #f85e10, #f66618, #f36d20, #f17327, #f87c45, #fd875e, #ff9275, #ffa9a1, #ffc3c7, #ffdee5, #fff9fb);
+}
+#body header nav img {
+  width: 200px;
+  height: auto;
+}
+#body main .titular {
+  background-color: orange;
+  color: #fff9fb;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+#body main #carouselExampleIndicators {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  max-height: 1000px;
+  margin: auto;
+}
+#body main #carouselExampleIndicators img {
+  width: 100%;
+}
+#body #mas_visto .titular {
+  background-color: orange;
+  color: #fff9fb;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+#body #indicaciones .titular {
+  background-color: orange;
+  color: #fff9fb;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+#body #indicaciones .indicaciones_container {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-content: center;
+}
+#body #indicaciones .indicaciones_container .galeria {
+  width: 100%;
+  max-width: 600px;
+}
+#body #indicaciones .indicaciones_container .galeria img {
+  width: 100%;
+}
+#body #indicaciones .indicaciones_container .mapa {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px;
+  text-align: center;
+}
+#body #indicaciones .indicaciones_container .mapa iframe {
+  width: 100%;
+}
+#body #footer {
+  background-color: #333333;
+}
+#body #footer h4 {
+  color: white;
+  font-size: small;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#body #footer .footer__redes img {
+  width: 40px;
+  height: 40px;
+}
+#body #footer .footer__texto {
+  text-align: center;
+}
+#body #footer .footer__texto img {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+}
+#body #footer .footer__texto p {
+  color: white;
+  font-size: small;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#body #footer .footer__links a {
+  text-decoration: none;
+  color: white;
+}
+#body #footer .footer__links a subrayado-no:hover {
+  background-color: #ff9275;
+}
+#body #footer .footer__links a:hover {
+  background-color: orange;
+}/*# sourceMappingURL=sass.css.map */

@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garabato Kids Tienda</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <meta name="keywords" content="vestidos, bautismos, bodys, vinchas, ropa niños">
+    <meta name="description" content="Más de 15 años vistiendo niños, contamos con prendas de primera calidad, que esperas?">
+    <link rel="stylesheet" href="./main/Sass.css">
     <link rel="shortcut icon" href="./imagenes/Logo pestaña.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +20,8 @@
 
 </head>
 
-<body>
-    <header>    
+<body id="body">
+    <header id="encabezado">    
         <nav class="navbar navbar-dark navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#header">
@@ -54,8 +56,8 @@
     </header>
     
     <main>
-        <div class="animate__animated animate__shakeY flex_titulo mb-3">
-            <h1 class="flex">Ropa para Bautismos - Niños - Eventos Especiales </h1>
+        <div class="titular animate__animated animate__shakeY titulo centrar mb-3">
+            <h1>Ropa para Bautismos - Vestidos - Eventos Especiales </h1>
         </div>
 
         <div class=" mb-3">
@@ -90,11 +92,11 @@
 
     <section id="mas_visto">
 
-        <div class="flex_titulo mb-3">
-           <h2 class="flex animate__animated animate__bounce">Lo Más Visto</h2>
+        <div class="titular titulo centrar mb-3">
+           <h2 class="animate__animated animate__bounce">Lo Más Visto</h2>
         </div>
 
-        <div class="d-flex flex-row justify-content-between flex-wrap">
+        <div class="d-flex flex-row justify-content-between flex-wrap mb-3">
 
             <div class="card text-center" style="width: 18rem;">
                 <img src="./imagenes/mas visto.png" class="card-img-top" alt="...">
@@ -148,21 +150,22 @@
 
     <section id="indicaciones">
 
-        <div class="flex_titulo">
+        <div class="titular">
 
-            <h3 class="flex animate__animated animate__backInLeft">Tienes problemas para encontrarnos?</h3>
-            <p class="flex animate__animated animate__backInLeft">Te dejamos un mapa y una foto exterior para darte una mano</p>
+            <h3 class="animate__animated animate__backInLeft">Tienes problemas para encontrarnos?</h3>
+            <p class="animate__animated animate__backInLeft">Te dejamos un mapa y una foto exterior para darte una mano</p>
 
         </div>
-        <div class="grid_mapa">
+        <div class="flex_mapa indicaciones_container">
             <div class="galeria">
                 <img src="./imagenes/FOTO EXTERIOR.png" alt="foto galeria">
             </div>
             <div class="mapa centrar">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6399838424645!2d-65.30693158439546!3d-24.18435569077932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f419443401f%3A0xad9e8fdab79074e9!2sGarabato%20Kid&#39;s!5e0!3m2!1ses!2sar!4v1663365205457!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6399838424645!2d-65.30693158439546!3d-24.18435569077932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f419443401f%3A0xad9e8fdab79074e9!2sGarabato%20Kid&#39;s!5e0!3m2!1ses!2sar!4v1663365205457!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            </div>
             
             <aside id="banner">
-                <div class="publi aLaDerecha">
+                <div class="">
                     <img src="./imagenes/Beauty Salon Roll Up Banner PSD - PSD Zone.jpg" alt="publicidad">
                 </div>
             </aside>      
@@ -177,13 +180,13 @@
             <a class="icono" href="https://www.facebook.com/garabatokidsok" target="_blank"><img class="iconos" src="./imagenes/fb.png" alt="facebook"></a>
         </div>
 
-        <div class="footer__texto centrar">
+        <div class="footer__texto">
             <p class="footer__texto--blanco">Garabato Kids</p>
             <img class="" src="./imagenes/copy.png" alt="icono copy">
             <p class="footer__texto--blanco">Todos los derechos reservados 2022</p>
         </div>
         <div class="footer__links">
-            <a class="subrayado-no" href="#header">Subir al Inicio</a>
+            <a class="subrayado-no" href="#encabezado">Subir al Inicio</a>
             <a class="subrayado-no" href="./pages/contacto.html" target="_blank">Contactarme</a>
         </div>
     </footer>
