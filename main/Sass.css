@@ -38,6 +38,14 @@
   width: 100%;
   text-align: center;
 }
+#body #mas_visto .mas_visto__contenedor .mas_visto__card {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+}
+#body #mas_visto .mas_visto__contenedor .mas_visto__card img {
+  width: 100%;
+}
 #body #indicaciones .titular {
   background-color: orange;
   color: #fff9fb;

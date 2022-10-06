@@ -59,11 +59,7 @@
 }
 
 
-
-//variables
-
-$fondoFooter: #333333;
-$fondoBody: linear-gradient(to bottom, #fb5607, #f85e10, #f66618, #f36d20, #f17327, #f87c45, #fd875e, #ff9275, #ffa9a1, #ffc3c7, #ffdee5, #fff9fb);
+@import "vars";
 
 //index
 
@@ -98,6 +94,14 @@ $fondoBody: linear-gradient(to bottom, #fb5607, #f85e10, #f66618, #f36d20, #f173
     #mas_visto{
         .titular{
             @include titulo-centrado;
+        }
+        .mas_visto__contenedor .mas_visto__card{
+            width: 100%;
+            max-width: 300px;
+            height: 100%;
+            img{
+             width: 100%;   
+            }
         }
     }
 
